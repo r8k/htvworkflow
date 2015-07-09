@@ -29,7 +29,7 @@ http_server.use('/', routes);
  * `instantiate` express app
  */
 
-http_server.listen(3000, function() {
+http_server.listen(process.env.PORT || 3000, function() {
     'use strict';
-    console.log('Express server listening on port 3000');
+    console.log('Express server listening on port', process.env.PORT || 3000);
 });
