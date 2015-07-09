@@ -1,0 +1,21 @@
+{
+  "name": "htvworkflow",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "some api service",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r8k/htvworkflow"
+  },
+  "author": "Rajiv Kilaparti>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "response-time": "^2.3.1"
+  }
+}
